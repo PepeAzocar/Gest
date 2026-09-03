@@ -1,0 +1,32 @@
+### Python / backend ###
+backend/.venv/
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.egg-info/
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+
+# Environment secrets — never commit
+.env
+backend/.env
+*.env.local
+
+### Frontend (future) ###
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+### Uploads (product images live on disk, not in git) ###
+backend/uploads/
+
+### OS / editor ###
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*
+
+### Credentials / notes — review before ever committing ###
+Acceso al sistema.docx
