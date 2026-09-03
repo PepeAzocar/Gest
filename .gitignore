@@ -28,5 +28,8 @@ Thumbs.db
 .idea/
 ~$*
 
+### Logs ###
+*.log
+
 ### Credentials / notes — review before ever committing ###
 Acceso al sistema.docx
